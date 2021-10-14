@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // var exemplo
+    // let any = "Variável let"
+    // const constante = 100
+
+    // if (true) {
+    //     document.write(any)
+    // }
+
+
+
+    //Funçao Literal
+    function soma() {
+        document.write(1+3)
+    }
+    // soma();
+
+    function concatenar_nome() {
+        var nome = "Gabriel"
+        var sobrenome = "Veloso"
+        alert(nome + " " + sobrenome)
+    }
+    // concatenar_nome();
+
+    function nova (nome, sobrenome) {
+        document.write(nome + " " + sobrenome)
+    }
+
+    // nova("Gabriel", "Dzierwa")
+
+    let anonima = function() {
+        alert("Função Anônima")
+    }
+
+    // anonima()
+
+    let fun_par = function(idade,idade_par) {
+        if (idade>idade_par) {
+            alert("Você tem idade maior que "+idade_par)
+        } else {
+            alert("Você tem idade menor que "+idade_par)
+        }
+    }
+
+    // fun_par(20,18)
+    // fun_par(17,18)
+
+</script>
+<body>
+    
+</body>
+</html>

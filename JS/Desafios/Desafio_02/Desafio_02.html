@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="Desafio_02.js"></script>
+    <title>CEP Finder</title>
+</head>
+<body>
+    <header class="flex center coluna" >
+        <h1>
+            ME ACHA
+        </h1>
+        <h2>
+            Encontre um enderaço pelo número de CEP
+        </h2>
+        <span class="material-icons flex center icon">
+            travel_explore
+        </span>
+    </header>
+    <main>
+        <div class="flex center" >
+            <br>
+            <form class="flex coluna" method="GET" name="Busca-CEP">
+                <label>CEP</label>
+                <input type="text" name="CEP" value="" id="cep">
+                <label>Rua</label>
+                <input type="text" name="Rua" value="" id="logradouro">
+                <label>Bairro</label>
+                <input type="text" name="Bairro" value="" id="bairro">
+                <label>Cidade</label>
+                <input type="text" name="Cidade" value="" id="localidade"> 
+                <label>Estado</label> 
+                <input type="text" name="Estado" value="" id="uf"> 
+                <input class="submit" type="button" value="Procurar" id="btn">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
